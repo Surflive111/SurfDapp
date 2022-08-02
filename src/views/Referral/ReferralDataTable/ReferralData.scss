@@ -1,0 +1,48 @@
+.ReferralData{
+    border-radius: 10px;
+    border: 1px solid rgb(98 116 94);
+    width: 100%;
+    overflow-x: auto;
+}
+
+.MuiTableCell-head {
+    color: rgb(239 211 211 / 87%);
+    font-weight: 500;
+    line-height: 1.5rem;
+}
+
+svg.MuiTablePagination-selectIcon {
+    fill: rgba(255, 255, 255, 0.6);
+}
+
+.MuiTablePagination-actions {
+    .MuiIconButton-root.Mui-disabled {
+        color: rgba(255, 255, 255, 0.6);
+
+    }
+    .MuiIconButton-root {
+        color: rgba(255, 255, 255, 0.6);
+
+    }
+}
+
+td.MuiTableCell-root.MuiTableCell-body{
+    color: #FFFFFF !important;
+}
+
+th.MuiTableCell-root.MuiTableCell-head.MuiTableCell-alignCenter{
+    color: #FFFFFF !important;
+
+}
+
+.MuiToolbar-root.MuiToolbar-regular.MuiTablePagination-toolbar.MuiToolbar-gutters{
+    color: #FFFFFF !important;
+
+}
+a.MuiTypography-root.MuiLink-root.MuiLink-underlineHover.MuiTypography-colorPrimary{
+    color: #FFFFFF !important;
+}
+
+.MuiTableContainer-root, .MuiTablePagination-root {
+    overflow: visible !important;
+}

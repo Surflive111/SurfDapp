@@ -1,0 +1,95 @@
+.dashboard-view {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  overflow: hidden;
+
+  width: 89%;
+  max-width: 833px;
+  margin: auto;
+  margin-top: 1rem;
+
+  .dashboard-infos-wrap{
+
+    .dashboard-card{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;      
+      position: relative;
+      z-index: 2;
+      
+      
+      @supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
+        background: rgb(9 22 12);
+        backdrop-filter: blur(100px);
+      }
+    
+      /* slightly transparent fallback for Firefox (not supporting backdrop-filter) */
+      @supports not ((-webkit-backdrop-filter: none) or (backdrop-filter: none)) {
+        background: rgb(9 22 12);
+      }
+
+      border-radius: 10px;
+      padding: 13px 0;
+
+      .card-title {
+        font-family: Montserrat Medium;
+        font-weight: 500;
+        font-size: 1rem;
+        color: rgba(255, 255, 255, 0.6);
+        padding: 3px 0px;
+      }
+  
+      .card-value {
+        font-family: Montserrat Bold;
+        font-weight: bold;
+        font-size: 1.3118rem;
+        font-weight: bold;
+        color: #FFFFFF;
+      }
+    }
+
+    .dashboard-individual-card {
+
+      border: 1px solid rgb(98 116 94);
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;      
+      position: relative;
+      z-index: 2;
+      height: 100px;
+      margin-top: 1.3rem;
+
+      .card-title {
+        font-family: Montserrat Medium;
+        font-weight: 500;
+        font-size: 1rem;
+        color: rgba(255, 255, 255, 0.6);
+        padding: 5px 0px;
+      }
+  
+      .card-value {
+        font-family: Montserrat Bold;
+        font-weight: bold;
+        font-size: 1.3118rem;
+        font-weight: bold;
+        color: #FFFFFF;
+      }
+
+      @supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
+        background: rgb(9 22 12);
+        backdrop-filter: blur(100px);
+      }
+    
+      /* slightly transparent fallback for Firefox (not supporting backdrop-filter) */
+      @supports not ((-webkit-backdrop-filter: none) or (backdrop-filter: none)) {
+        background: rgb(9 22 12);
+      }
+
+    }
+  }
+}

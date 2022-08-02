@@ -1,0 +1,114 @@
+.lpstaking-card-wrapper {
+  position: relative;
+  display: flex;
+  justify-items: center ;
+  max-width: 450px;
+  margin: 10px auto;
+  width: 100%;
+  z-index: 10;
+
+  border: 1px solid #62745e;
+  border-radius: 24px;
+
+}
+.lpstaking-card-content {
+  position: relative;
+  max-width: 455px;
+  width: 100%;
+  z-index: 1;
+  padding: 24px;
+
+  .lpstaking-header {
+    display: flex;
+    justify-content: space-between;
+    justify-items: center ;
+    margin-bottom: 16px;
+    .pair-img{
+      position:relative;
+
+      .first-token-img{
+        width:32px;
+      }
+      .second-token-img{
+        position: absolute;
+        width:80px;
+        top: -15px;
+        left: 5px;
+      }
+    }
+    .header-title1{
+      font-size: 20px;
+      color: white;
+      font-family: 'Montserrat Bold';
+      margin-bottom: 6px;
+    }
+
+  }
+
+  .lpstaking-apr {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    justify-items: center ;
+    margin-top: 12px;
+    margin-bottom: 12px;
+
+    .lpstaking-apr-title{
+      font-size: 16px;
+      color: white;
+      font-family: revert;
+      font-weight: bold;
+    }
+
+  }
+  
+  .lpstaking-title{
+
+    .lpstaking-title1{
+      color: rgb(184, 173, 210);
+      font-weight: 600;
+      line-height: 1.5;
+      text-transform: uppercase;
+      font-size: 12px;
+    }
+    .lpstaking-title2{
+      color: #31D0AA;
+      font-weight: 600;
+      line-height: 1.5;
+      text-transform: uppercase;
+      padding-right: 4px;
+      font-size: 12px;
+    }
+  }
+
+  .lpstaking-harvest{
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+
+    .lpstaking-earned-value{
+      color: rgb(184, 173, 210);
+      line-height: 1.5;
+      text-transform: uppercase;
+      font-size: 20px;
+      font-family: revert;
+      font-weight: bold;
+      
+    }
+    .lpstaking-title2{
+      color: #31D0AA;
+      font-weight: 600;
+      line-height: 1.5;
+      text-transform: uppercase;
+      padding-right: 4px;
+      font-size: 12px;
+    }
+  }
+  .divider{
+    background-color: rgb(56, 50, 65);
+    height: 1px;
+    margin: 28px auto;
+    width: 100%;
+  }
+
+}
